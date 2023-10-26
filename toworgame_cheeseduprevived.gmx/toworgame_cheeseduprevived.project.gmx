@@ -5,9 +5,24 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_harold</sprite>
+    <sprite>sprites\spr_solid</sprite>
+    <sprite>sprites\spr_player_mask</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_move.gml</script>
+    <script>scripts\scr_solid.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_player</object>
+    <object>objects\obj_solid</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_Fuck</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
