@@ -4,21 +4,28 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\mu_bhob</sound>
+    <sound>sound\sfx_jumb</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_harold</sprite>
     <sprite>sprites\spr_solid</sprite>
     <sprite>sprites\spr_player_mask</sprite>
+    <sprite>sprites\spr_craig</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_move.gml</script>
     <script>scripts\scr_solid.gml</script>
+    <script>scripts\scr_charspr.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_solid</object>
+    <object>objects\obj_music</object>
+    <object>objects\obj_skinchoice</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Fuck</room>
